@@ -23,8 +23,8 @@ def longest_subsequence(sequence_1, sequence_2, successive:bool=False, return_ta
     try:
         # This is custom 2D matrix. Just list of lists but more handsome (has indexes and prints as normal flat table). 
         # If you don't have one it's ok. The func will generate normal 2D list.
-        import Matrix_2d
-        table = Matrix_2d.from_iter(
+        import matrix_2d
+        table = matrix_2d.from_iter(
             iter_1=sequence_1,
             iter_2=sequence_2,
             default_value=None
