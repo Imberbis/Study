@@ -1,3 +1,5 @@
+# Not a part of book's materials. I used it for some algorithms as 2d array with visualisation.
+
 def from_iter(iter_1, iter_2, default_value=None):
     return Matrix_2d(
             x_len=len(iter_1),
